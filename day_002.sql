@@ -9,5 +9,13 @@
 
 create database pet_shop;
 use pet_shop;
+
 CREATE TABLE cats (name VARCHAR(50), age INT);
 CREATE TABLE dogs (name VARCHAR(50), age INT);
+
+SHOW TABLES;
+
+# Os comandos abaixo fazem a mesma coisa
+SHOW COLUMNS FROM cats;
+DESCRIBE cats;
+DESC cats;
